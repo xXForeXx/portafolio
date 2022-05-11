@@ -33,11 +33,14 @@ main {
 }
 #header #header_nav .header_nav--item {
   align-items: center;
-  width: 40px;
+  width: 45px;
 }
 #header #header_nav .activador_desplegable {
   width: 80%;
   text-align: center;
+}
+#header #header_nav .activador_desplegable #nav__list {
+  width: 30px;
 }
 #header #header_nav #desplegable_menu {
   top: 50px;
@@ -55,7 +58,14 @@ main {
 }
 #header #header_nav #desplegable_menu .desplegable_menu--item {
   margin: 3px;
+}
+#header #header_nav #desplegable_menu .desplegable_menu--item .desplegable_menu--item--hiper {
   color: white;
+  text-decoration: none;
+}
+#header #header_nav #desplegable_menu .desplegable_menu--item .dM--item--h--inicio {
+  display: none;
+  color: cyan;
 }
 #header #header_nav #desplegable_menu .desplegable_menu--item #desplegable_menu--item--button {
   width: 30vw;
@@ -67,9 +77,6 @@ main {
   border: none;
   border-radius: 10px;
   font-weight: 700;
-}
-#header #header_nav #desplegable_menu .dM--item--inicio {
-  color: cyan;
 }
 
 #section_1 .section_1--container {

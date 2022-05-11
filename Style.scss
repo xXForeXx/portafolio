@@ -36,14 +36,17 @@ main{
 
         .header_nav--item{
             align-items: center;
-            width: 40px;
+            width: 45px;
         }
         .activador_desplegable{
             width: 80%;
             text-align: center;
+            #nav__list{
+                width: 30px;
+            }
 
         }
-        #desplegable_menu{
+        #desplegable_menu{   
             top: 50px;
             width: 100vw;
             height: 200px;
@@ -59,7 +62,15 @@ main{
 
             .desplegable_menu--item{
                 margin: 3px;
-                color:white;
+                .desplegable_menu--item--hiper{
+                    color:white;
+                    text-decoration: none;
+                }
+                
+                .dM--item--h--inicio{
+                    display: none;
+                    color: cyan;
+                }
 
                 #desplegable_menu--item--button{
                     width: 30vw;
@@ -72,13 +83,8 @@ main{
                     border-radius: 10px;
                     font-weight: 700;
                 }
-
-
             }
-            .dM--item--inicio{
-                color: cyan;
-            }
-        }   
+        }
     }
 }
 

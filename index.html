@@ -4,7 +4,6 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="Style.css">
-	<script src="./js.js"></script>
 	<title>Primera pagina con sass</title>
 </head>
 <body>
@@ -15,14 +14,19 @@
 			<img src="./multimedia/navlist.png" alt="img" class="header_nav--item" id="nav__list" >
 			</span>
 			<ul id="desplegable_menu">
-				<li class="desplegable_menu--item dM--item--inicio">Inicio
-				</li>
-				<li class="desplegable_menu--item">Portafolio
-				</li>
-				<li class="desplegable_menu--item">Multimedia
+				<li class="desplegable_menu--item">
+					<a href="./index.html" class="desplegable_menu--item--hiper dM--item--h--inicio">Inicio</a>
 				</li>
 				<li class="desplegable_menu--item">
-					<button id="desplegable_menu--item--button">Contactame</button>
+					<a href="./portafolio.html" class="desplegable_menu--item--hiper">Portafolio</a>
+				</li>
+				<li class="desplegable_menu--item">
+					<a href="./multimedia.html" class="desplegable_menu--item--hiper">Multimedia</a>
+				</li>
+				<li class="desplegable_menu--item">
+					<a href="./contact.html" class="desplegable_menu--item--hiper">
+						<button id="desplegable_menu--item--button">Contactame</button>
+					</a>
 				</li>
 			</ul>
 		</nav>
@@ -110,13 +114,21 @@
 			<div id="static__botton" >
 				<img src="./multimedia/logheader.png" alt="foto BD" class="static__botton--img" onclick="despliegueContact()">
 				<div class="desplegableContact" id="desplegable_Contact">
-					<img src="./multimedia/facebooklogo.png" alt="facebook" class="desplegableContact--img dC__img--facebook">
-					<img src="./multimedia/twitterlogo.png" alt="twitter" class="desplegableContact--img dC__img--facebook">
-					<img src="./multimedia/gmaillogo.png" alt="gmail" class="desplegableContact--img dC__img--facebook">
+					<a href="https://www.facebook.com/daniel.florez.37669" target="_blank">
+						<img src="./multimedia/facebooklogo.png" alt="facebook" class="desplegableContact--img dC__img--facebook">
+					</a>
+					<a href="https://twitter.com/DanielFlorezVa1" target="_blank">
+						<img src="./multimedia/twitterlogo.png" alt="twitter" class="desplegableContact--img dC__img--facebook">
+					</a>
+					<a href="https://github.com/xXForeXx" target="_blank">	
 					<img src="./multimedia/githublogo.png" alt="github" class="desplegableContact--img dC__img--facebook">
+					</a>
+					<a href="https://www.linkedin.com/in/daniel-florez-valencia-31a854224/" target="_blank">
 					<img src="./multimedia/linkedinlogo.png" alt="linkenid" class="desplegableContact--img dC__img--facebook">            
+					</a>
 				</div>
 			</div>
 		</main>
+		<script src="./js.js"></script>
 </body>
 </html>

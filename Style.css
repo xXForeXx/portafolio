@@ -9,7 +9,7 @@ body {
   z-index: 500;
 }
 
-main {
+#main {
   position: relative;
   z-index: -5000;
   top: 70px;
@@ -77,6 +77,44 @@ main {
   border: none;
   border-radius: 10px;
   font-weight: 700;
+}
+
+.a__1 {
+  position: absolute;
+  z-index: 100;
+  top: 40%;
+  right: 0px;
+  width: 60px;
+  height: 25px;
+  background: black;
+  border-radius: 20px;
+  border: solid cyan;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.a__1 #a__2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  display: inherit;
+  margin: auto 0;
+  align-items: inherit;
+  justify-content: center;
+}
+.a__1 #a__2 .a__2--img {
+  background-image: url(./multimedia/iconosol.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 15px;
+  height: 15px;
+  margin: 5px;
+  border: solid 2px wheat;
+  border-radius: 15px;
+}
+
+#a__2:hover + .a__2 {
+  justify-content: end;
 }
 
 #section_1 .section_1--container {
